@@ -16,7 +16,7 @@
       rgba(15, 23, 42, 0.473) 38%,
       rgba(59, 131, 246, 0.247) 100%
     ),
-    url(./Images/background.jpg);
+    url(../Images/background.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
