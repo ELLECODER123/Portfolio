@@ -1,7 +1,0 @@
-Primary: #0F172A (deep navy – focus & depth)
-
-Accent: #3B82F6 (calm blue – clarity)
-
-Secondary: #10B981 (green – growth, balance)
-
-Neutral: #F1F5F9 / #FFFFFF (light peace tone)
