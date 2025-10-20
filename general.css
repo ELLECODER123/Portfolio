@@ -1,0 +1,107 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- FONT-WEIGHT: 
+DEFAULT: 400
+MEDIUM: 500
+SEMI-BOLD: 600
+BOLD: 700
+
+- LINE-HEIGHT: 
+DEFAULT: 1
+SMALL: 1.05
+MEDIUM: 1.2
+LARGE: 1.8
+PARAGRAPH DEFAULT: 1.6
+
+-LETTER SPPACING
+-0.5PX
+0.75PX
+
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+--- 02 COLORS
+
+- PRIMARY COLOR: #0F172A
+
+- ACCENTS COLOR: #3B82F6
+
+-SECONDARY COLOR: #10B981
+
+- TINTS: 
+
+- SHADES: #b7b9bf (Lightest Shades allowed on #0F172A)
+
+- GREYS: #555, #333,
+
+--- 03 SHADOWS
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+--- 04 BORDER-RADIUS
+    DEFAULT: 9PX;
+    Medium: 11PX
+
+--- 05 WHITESPACE
+
+--- 06 SPACING SYSTEM
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+/* *************************** */
+/* General resuable components */
+/* *************************** */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.8rem;
+  color: #333;
+  position: relative;
+  background-color: #d1e3ff;
+}
+
+.heading--g {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.6rem;
+  color: #0f172a;
+  text-align: center;
+}
+.--paragraph-g {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+.--paragraph-g::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2rem;
+  width: 5%;
+  height: 0.6rem;
+  background-color: #3b82f6;
+}
+
+.container--sm {
+  width: 70%; /*For Testimonials & Contacts*/
+  margin: 9.6rem auto;
+  margin-bottom: 3.6rem;
+}
+
+.general-box {
+  /* height: 50vh; */
+  background-color: #0f172a;
+  margin-top: 10rem;
+}
